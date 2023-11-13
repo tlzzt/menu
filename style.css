@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url("fonts/TIAAPG-Futura-Medium.ttf");
+}
+td,
+h1 {
+  font-family: "Fira Sans";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+body {
+  background: url(img/mednu-1-1.png) no-repeat top left;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+@media only screen and (max-width: 600px) {
+  h1,
+  td {
+    font-size: 0.94em;
+    font-weight: bold;
+  }
+  div {
+    width: 80%;
+  }
+}
